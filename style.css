@@ -2,45 +2,46 @@ header, footer, section, nav, article {
     display: block;  
 }
 
-/* TODO: Add property:value pairs to set the width
-of the page, the font type, and the font size */
 body {
+  padding-top: 5rem;
 	margin: 0 auto;  
   width: 940px;
   font-family:Cambria;
   font-weight: 2;
   font-size: 1.2rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.75);
   background-size: device-width;
   background-color: peru;
   background-image: url('what.jpg');
 }
 
-/* TODO: Add property:value pairs to set the color
-of the h1 element and make its text centered. Look at the index.html to see what the h1 element creates on the page*/
 h1 {
   color:rgba(0, 0, 0, 0.5);
   text-align: center;
 
 }
 
-/* TODO: Add property:value pairs to set the color
-of the h3 element and make its text centered. Look at the index.html to see what the h3 element creates on the page*/
+h1.display-3 {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+div.jumbotron {
+  background-color: rgba(255, 4, 121, 0.295);
+}
+
 h3 {
   color:rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
-/* TODO: Add property:value pairs to set the width and height of the header element. Give it a background color. add a border, and center its text. Look at the index.html to see what the header element creates on the page*/
 header {
 	margin: 5px auto;
   width: 500px;
+  text-align: center;
   background-size: 940px;
-  background-color:rgba(127, 255, 212, 0.603);
+  background-color:rgba(127, 255, 212, 0.26);
 }
 
-/* TODO: Add property:value pairs to set the width and height of the footer element. Give it a background color. add a border, and center its text.
-Look at the index.html to see what the footer element creates on the page*/
 footer {
 	margin: 5px auto;
   text-align: center;
@@ -53,18 +54,18 @@ section {
   width:800px;
   margin: 5px auto;
   margin-top:100px;
-  background-color:#0000007a;
+  background-color:#9c37379d;
 }
 
 
 /* This code styles your navigation bar. It works as is but feel free to change anything you'd like. Multiple tag selectors mean tags within tags.   */
 nav {
-	width: 940px;
+	width: 100%;
 	height: 50px;
 	float: left;
 	font-family: Geneva,Arial;
 	border: 1px solid #000000;
-	background-size: 940px;
+	background-size: 100%;
   background-image: url('sovngarde.gif');
 }
 
